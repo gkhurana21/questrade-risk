@@ -1,0 +1,20 @@
+# Live brokerage credentials — NEVER commit
+.env
+.env.local
+.env.production
+# .env.template is intentionally tracked (contains no secrets)
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+
+# macOS
+.DS_Store
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*~
